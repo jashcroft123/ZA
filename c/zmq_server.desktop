@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=ZeroMQ Publisher
+Comment=ZeroMQ Publisher (Publishes to all IPC subscribers)
+Exec=/home/james/.local/bin/zmq_gui server
+Icon=zmq-test
+Terminal=false
+Categories=Development;Network;GTK;
+Keywords=ZeroMQ;ZMQ;Messaging;Server;

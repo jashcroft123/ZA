@@ -1,0 +1,15 @@
+[package]
+name = "rust_zmq_chat"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = "0.31" # Latest stable version
+tokio = { version = "1.0", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = "0.4"
+uuid = { version = "1.0", features = ["v4"] }
+zmq = { version = "0.10" }
+futures = "0.3"
+tracing-subscriber = "0.3.23"
