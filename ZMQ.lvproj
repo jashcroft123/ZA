@@ -13,10 +13,17 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Examples" Type="Folder">
+			<Item Name="ReqRep.vi" Type="VI" URL="../src/Examples/ReqRep.vi"/>
+			<Item Name="PubSub.vi" Type="VI" URL="../src/Examples/PubSub.vi"/>
+			<Item Name="PubSubSync.vi" Type="VI" URL="../src/Examples/PubSubSync.vi"/>
+		</Item>
 		<Item Name="Example.SubChat.vi" Type="VI" URL="../Example.SubChat.vi"/>
 		<Item Name="Example.vi" Type="VI" URL="../Example.vi"/>
 		<Item Name="Linux.Test.vi" Type="VI" URL="../Linux.Test.vi"/>
-		<Item Name="libzmq-v143-mt-4_3_6.lvlib" Type="Library" URL="../libzmq-v143-mt-4_3_6/libzmq-v143-mt-4_3_6.lvlib"/>
+		<Item Name="ExampleClient.vi" Type="VI" URL="../src/ExampleClient.vi"/>
+		<Item Name="ZeroMQ.lvlib" Type="Library" URL="../src/zeromq/ZeroMQ.lvlib"/>
+		<Item Name="LibZMQ.lvlib" Type="Library" URL="../libzmq-v143-mt-4_3_6/LibZMQ.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

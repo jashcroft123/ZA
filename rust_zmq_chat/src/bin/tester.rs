@@ -1,3 +1,27 @@
+use eframe::egui;
+use rust_zmq_chat::client_app::ClientApp;
+
+fn main() -> Result<(), eframe::Error> {
+    let _ = tracing_subscriber::fmt::try_init();
+
+    let options = eframe::NativeOptions {
+        viewport: egui::ViewportBuilder::default()
+            .with_inner_size([980.0, 760.0])
+            .with_title("ZeroMQ External Subscriber Tester"),
+        ..Default::default()
+    };
+
+    eframe::run_native(
+        "ZeroMQ External Subscriber Tester",
+        options,
+        Box::new(|cc| {
+            cc.egui_ctx.set_visuals(egui::Visuals::dark());
+            Ok(Box::new(ClientApp::new()))
+        }),
+    )
+}
+
+/*
 use rust_zmq_chat::network::{ChatMessage, NetworkCommand, NetworkEvent, run_zmq_peer};
 use eframe::egui;
 use std::sync::{Arc, Mutex};
@@ -137,3 +161,4 @@ impl eframe::App for TesterApp {
         ctx.request_repaint();
     }
 }
+*/
