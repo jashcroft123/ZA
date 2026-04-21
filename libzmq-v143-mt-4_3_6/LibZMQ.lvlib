@@ -32,6 +32,7 @@
 		<Item Name="SocketType.ctl" Type="VI" URL="../ctls/SocketType.ctl"/>
 		<Item Name="SocketOption.ctl" Type="VI" URL="../ctls/SocketOption.ctl"/>
 		<Item Name="SetSocketOption.vi" Type="VI" URL="../VIs/SetSocketOption.vi"/>
+		<Item Name="Socket Monitor.vi" Type="VI" URL="../VIs/Socket Monitor.vi"/>
 	</Item>
 	<Item Name="errno.vi" Type="VI" URL="../VIs/errno.vi"/>
 	<Item Name="Has.vi" Type="VI" URL="../VIs/Has.vi"/>
@@ -43,7 +44,7 @@
 	<Item Name="zmq atomic counter new.vi" Type="VI" URL="../VIs/zmq atomic counter new.vi"/>
 	<Item Name="zmq atomic counter set.vi" Type="VI" URL="../VIs/zmq atomic counter set.vi"/>
 	<Item Name="zmq atomic counter value.vi" Type="VI" URL="../VIs/zmq atomic counter value.vi"/>
-	<Item Name="zmq curve keypair.vi" Type="VI" URL="../VIs/zmq curve keypair.vi"/>
+	<Item Name="Curve Keypair.vi" Type="VI" URL="../VIs/Curve Keypair.vi"/>
 	<Item Name="zmq curve public.vi" Type="VI" URL="../VIs/zmq curve public.vi"/>
 	<Item Name="zmq device.vi" Type="VI" URL="../VIs/zmq device.vi"/>
 	<Item Name="zmq init.vi" Type="VI" URL="../VIs/zmq init.vi"/>
@@ -63,7 +64,6 @@
 	<Item Name="zmq recvmsg.vi" Type="VI" URL="../VIs/zmq recvmsg.vi"/>
 	<Item Name="zmq sendmsg.vi" Type="VI" URL="../VIs/zmq sendmsg.vi"/>
 	<Item Name="zmq sleep.vi" Type="VI" URL="../VIs/zmq sleep.vi"/>
-	<Item Name="zmq socket monitor.vi" Type="VI" URL="../VIs/zmq socket monitor.vi"/>
 	<Item Name="zmq stopwatch intermediate.vi" Type="VI" URL="../VIs/zmq stopwatch intermediate.vi"/>
 	<Item Name="zmq stopwatch start.vi" Type="VI" URL="../VIs/zmq stopwatch start.vi"/>
 	<Item Name="zmq stopwatch stop.vi" Type="VI" URL="../VIs/zmq stopwatch stop.vi"/>
@@ -77,4 +77,5 @@
 	<Item Name="zmq timers timeout.vi" Type="VI" URL="../VIs/zmq timers timeout.vi"/>
 	<Item Name="zmq version.vi" Type="VI" URL="../VIs/zmq version.vi"/>
 	<Item Name="CreateString.vi" Type="VI" URL="../CreateString.vi"/>
+	<Item Name="libzmq-v143-mt-4_3_6.dll" Type="Document" URL="../lib/win32/libzmq-v143-mt-4_3_6.dll"/>
 </Library>
